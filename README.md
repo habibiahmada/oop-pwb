@@ -1,52 +1,72 @@
-# File with heading
+# Task PHP OOP
 
-Task PHP OOP
+## Deskripsi Tugas
+Tugas ini bertujuan untuk melatih konsep **Object-Oriented Programming (OOP)** dalam PHP, termasuk penggunaan class, inheritance, dan method.
 
-Sebelum mengerjakan challenge ini, buatlah sebuah folder dengan nama “oop” di dalam direktori htdocs kalian. Di dalam folder oop tersebut buatlah sebuah file index.php sebagai entry dari program yang akan dibuat.
+## Struktur Direktori
+Buat struktur direktori berikut:
+```
+oop-pwb/
+  ├── index.php
+  ├── Animal.php
+  ├── Frog.php
+  ├── Ape.php
+  └── README.md
+```
 
-Class Animal
+---
 
-Terdapat sebuah class Animal yang memiliki sebuah constructor name, default property legs = 4 dan cold_blooded = no.
+### 1. **Output Akhir**
+Output yang diharapkan:
+```
+Name : shaun
+Legs : 4
+Cold blooded : no
 
-Release 0
+Name : buduk
+Legs : 4
+Cold blooded : no
+Jump : Hop Hop
 
-Buatlah class Animal tersebut di dalam file animal.php.Lakukan instance terhadap class Animal tersebut di file index.php. Lakukan import class Animal dari animal.php di dalam index.php menggunakan require atau require once (mengenai require bisa baca dari artikel berikut).
+Name : Kera sakti
+Legs : 2
+Cold blooded : no
+Yell : Auooo
+```
 
-Tampilkan nama dari Animal yang baru dibuat tersebut.
+---
 
-$sheep = new Animal("shaun");
+## Screenshots
+### 1. **Kode Program**
+Berikut adalah kode program untuk file `Animal.php`:
+</br>
+<img src="https://github.com/user-attachments/assets/d846f52f-a43f-4836-ba95-fd083950d17a" alt="animal" width="400" />
 
-echo $sheep->name; // "shaun" \
-echo $sheep->legs; // 4 \
-echo $sheep->cold_blooded; // "no" \
+Berikut adalah kode program untuk file `Frog.php`:
+</br>
+<img src="https://github.com/user-attachments/assets/03eea166-e08e-4be1-a0a7-aed261f4b610" alt="frog" width="400" />
 
-// NB: Boleh juga menggunakan method get (get_name(), get_legs(), get_cold_blooded())
+Berikut adalah kode program untuk file `Ape.php`:
+</br>
+<img src="https://github.com/user-attachments/assets/6a047632-0de2-4e41-867c-ad747264bc5c" alt="ape" width="400" />
 
-Release 1
+Berikut adalah kode program untuk file `index.php`:
+</br>
+<img src="https://github.com/user-attachments/assets/b1fdaffa-1f64-4492-b57a-eefbb481aad2" alt="index" width="400" />
 
-Buatlah class Frog dan class Ape yang merupakan inheritance dari class Animal. Masing-masing class dibuat ke dalam satu file (Frog.php & Ape.php). Perhatikan bahwa Ape (Kera) merupakan hewan berkaki 2, hingga dia tidak menurunkan sifat jumlah kaki 4. class Ape memiliki function yell() yang mengeprint “Auooo” dan class Frog memiliki function jump() yang akan mengeprint “hop hop”.
 
-// index.php\
-$sungokong = new Ape("kera sakti"); \\
-$sungokong->yell() // "Auooo" \\
-\
-$kodok = new Frog("buduk");\
-$kodok->jump() ; // "hop hop"\
-\
-output akhir\
-Name : shaun\
-legs : 4\
-cold blooded : no\
-\
-Name : buduk\
-legs : 4\
-cold blooded : no\
-Jump : Hop Hop\
-\
-Name : Kera sakti\
-legs : 2\
-cold blooded : no\
-Yell : auooo\
-\
+---
 
-Kumpulkan Link Githubnya dan screenshoot hasil pekerjaan
+### 2. **Preview Output**
+Berikut adalah preview output yang dihasilkan:
+</br>
+<img src="https://github.com/user-attachments/assets/a9652fd8-361d-4f27-9144-3cf631d6c1ca" alt="index" width="400" />
+
+---
+
+## Link Repository
+[Link Repository GitHub](https://github.com/habibiahmada/oop-pwb)
+
+---
+
+Jika ada pertanyaan lebih lanjut, silakan tinggalkan komentar pada repository! 😊
